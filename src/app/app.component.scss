@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0f0f0f;
+    color: #fff;
+  }
+  
+  .hero {
+    background: linear-gradient(to right, #1e1e1e, #121212);
+    text-align: center;
+    padding: 4rem 2rem;
+  }
+  
+  .hero h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: gold;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+  }
+  
+  .hero button {
+    background-color: gold;
+    color: #000;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .hero button:hover {
+    background-color: #f1c40f;
+  }
+  
+  .services, .delivery, .about-contact {
+    background-color: #1a1a1a;
+    margin-top: 2rem;
+    border-radius: 12px;
+    padding: 2rem;
+  }
+  
+  .services h2, .delivery h2, .about-contact h2 {
+    color: gold;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .service-list, .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem 0;
+  }
+  
+  .card {
+    background: #2c2c2c;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .card h3 {
+    color: gold;
+    margin: 1rem 0 0.5rem;
+  }
+  
+  .card p {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-btn {
+    display: block;
+    margin: 1rem auto 0;
+    background-color: gold;
+    color: #000;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .cta-btn:hover {
+    background-color: #f1c40f;
+  }
+  
+  .about-contact {
+    text-align: center;
+  }
+  
+  .contact-form {
+    max-width: 500px;
+    margin: 2rem auto;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.8rem;
+    background: #000;
+    color: #aaa;
+    margin-top: 2rem;
+  }
+  
+  /* Responsive Fixes */
+  @media (max-width: 768px) {
+    .service-list, .product-list {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 90%;
+    }
+  
+    .hero h1 {
+      font-size: 2.2rem;
+    }
+  
+    .hero p {
+      font-size: 1rem;
+    }
+  }
+  
